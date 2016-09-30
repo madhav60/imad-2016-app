@@ -6,3 +6,4 @@ button.onclick=fuction() ;{
     span.innerHTML=counter.toString();
     
 }
+var request= new XMLHttp(){ 
