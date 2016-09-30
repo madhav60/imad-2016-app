@@ -1,4 +1,8 @@
-console.log('Loaded!');
-var img=document.getElementById('madi');
-maddi.onclick=function()
-{ img.style.marginleft='100px';};
+var button= document.getElementById('button');
+var counter= 0;
+button.onclick=fuction() ;{
+    counter=counter +1;
+    var span=document.getElementById('count');
+    span.innerHTML=counter.toString();
+    
+}
