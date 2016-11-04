@@ -31,3 +31,7 @@ body {
 {margin:auto;
 text-align:center;    
 }
+div>a
+{color:red;
+    text-decoration:none;
+}
