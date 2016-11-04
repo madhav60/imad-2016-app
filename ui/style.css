@@ -26,5 +26,8 @@ body {
     z-index:1;
     margin:10px 10px 10px 10px;
 }
-div div a
-{color:blue;}
+div div a:link
+{color:red;
+text-decoration:none;
+background-color:orange;    
+}
