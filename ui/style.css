@@ -19,4 +19,10 @@ body {
 .img-medium {
     height: 200px;
 }
-
+#header{
+    background-color:#08A2F5; 
+    height :10em;
+    width:100em;
+}
+div div a
+{color:blue;}
