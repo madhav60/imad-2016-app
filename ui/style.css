@@ -28,4 +28,6 @@ body {
     padding:10px 10px 10px 10px;
 }
 .center 
-{margin:auto;}
+{margin:auto;
+text-align:center;    
+}
