@@ -19,7 +19,7 @@ body {
 .img-medium {
     height: 200px;
 }
-#header{
+.header{
     background-color:red; 
     height :100em;
     width:100em;
