@@ -24,6 +24,7 @@ body {
     height :100em;
     width:100em;
     z-index:1;
+    margin:10px 10px 10px 10px;
 }
 div div a
 {color:blue;}
