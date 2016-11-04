@@ -19,23 +19,3 @@ body {
 .img-medium {
     height: 200px;
 }
-#header
-{border-radius:5px;
-height:10em;
-width:80em;
-background-color:yellow;}
-#left
-{border-radius:5px;
-height:60em;
-width:10em
-background-color:blue;}
-#right
-{border-radius:5px;
-height:60em;
-width:10em;
-background-color:blue;}
-#footer
-{border-radius:5px;
-height:10em;
-width:80em;
-background-color:orange;}
