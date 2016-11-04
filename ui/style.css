@@ -20,7 +20,7 @@ body {
     height: 200px;
 }
 #header{
-    background-color:#F56208; 
+    background-color:red; 
     height :100em;
     width:100em;
     z-index:1;
