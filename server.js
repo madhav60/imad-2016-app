@@ -11,20 +11,35 @@ app.get('/', function (req, res) {
 app.get('/intro', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'work1.html'));
 });
-app.get('/intro', function (req, res) {
+app.get('/hills', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'work2.html'));
 });
-app.get('/intro', function (req, res) {
+app.get('/beaches', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'work3.html'));
 });
-app.get('/intro', function (req, res) {
+app.get('/islands', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'work4.html'));
 });
-app.get('/intro', function (req, res) {
+app.get('/forests', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'work5.html'));
 });
-app.get('/intro', function (req, res) {
+app.get('/pilgrimage', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'work6.html'));
+});
+app.get('/museums', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'work7.html'));
+});
+app.get('/zoos', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'work8.html'));
+});
+app.get('/wildlifesanctuaries', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'work9.html'));
+});
+app.get('/natparks', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'work10.html'));
+});
+app.get('/amuseparks', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'work11.html'));
 });
 app.get('/counter', function(req,res){
     counter=counter+1;
