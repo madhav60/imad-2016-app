@@ -20,9 +20,7 @@ app.get('/beaches', function (req, res) {
 app.get('/islands', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'work4.html'));
 });
-app.get('/forests', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'work5.html'));
-});
+
 app.get('/pilgrimage', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'work6.html'));
 });
