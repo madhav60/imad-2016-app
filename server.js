@@ -36,9 +36,7 @@ app.get('/wildlifesanctuaries', function (req, res) {
 app.get('/natparks', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'work10.html'));
 });
-app.get('/amuseparks', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'work11.html'));
-});
+
 app.get('/counter', function(req,res){
     counter=counter+1;
     res.send(counter.toString());
