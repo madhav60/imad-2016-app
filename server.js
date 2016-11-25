@@ -24,7 +24,7 @@ app.get('/islands', function (req, res) {
 app.get('/pilgrimage', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'work6.html'));
 });
-app.get('/museums', function (req, res) {
+app.get('/museumss', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'work7.html'));
 });
 app.get('/zoos', function (req, res) {
